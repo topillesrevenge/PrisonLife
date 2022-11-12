@@ -1,9 +1,6 @@
 
 
 function main()
-	rconsoleclear()
-	rconsoleprint('@@GREEN@@')
-	rconsoleprint('Succesfully Executed!')
 
 	local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
 
@@ -127,19 +124,3 @@ function main()
 	d:DestroyGui()
 end
 
-
-rconsoleclear()
-rconsoleprint('@@GREEN@@')
-rconsoleprint('Start Menu? \n')
-rconsoleprint("N\\Y")
-rconsoleprint("\n")
-
-
-bru = rconsoleinput("E")
-
-if bru == "Y"
-then 
-	rconsoleclear()
-	main()
-end
-	
