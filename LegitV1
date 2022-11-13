@@ -123,4 +123,4 @@ function main()
 
 	d:DestroyGui()
 end
-
+main()
